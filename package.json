@@ -1,0 +1,16 @@
+{
+  "name": "test-react-component-with-lazy",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:imballinst/test-react-component-with-lazy.git",
+  "author": "Try Ajitiono <ballinst@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "peerDependencies": {
+    "react": "17 || 18",
+    "react-dom": "17 || 18"
+  }
+}
