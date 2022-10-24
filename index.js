@@ -5,7 +5,7 @@ export default function Test({ importPath }) {
     console.info("Attempting to import", `@test-components/${importPath}`);
     return import(`@test-components/${importPath}`).catch(() => {
       console.error("Component not found");
-      return <div>Component not found</div>;
+      return { default: () => <div>Component not found</div> };
     });
   });
 
